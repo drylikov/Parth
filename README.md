@@ -21,6 +21,7 @@ Some HTTP parameter names are more commonly associated with one functionality th
 ## Usage
 **Installation:** `pip3 install parth`
 
+
 ### Import targets from a file
 This option works for all 3 supported import types: Burp Suite history, newline delimited text file or a HTTP request text file.
 ```
