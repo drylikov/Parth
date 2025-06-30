@@ -45,6 +45,8 @@ This option will make use of CommonCrawl, Open Threat Exchange and Waybackmachin
 ```
 parth -t example.com
 ```
+
+
 ### Ignore duplicate parameter names
 Same parameter names across all URLs are ignored.
 ```
