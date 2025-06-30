@@ -59,6 +59,8 @@ This option will write all the parameter names found in a file with name `params
 ```
 parth -pt example.com
 ```
+
+
 ### JSON Output
 The following command will save the result as a JSON object in the specified file.
 ```
