@@ -52,6 +52,8 @@ Same parameter names across all URLs are ignored.
 ```
 parth -ut example.com
 ```
+
+
 ### Save parameter names
 This option will write all the parameter names found in a file with name `params-{target}.txt` for later use.
 ```
