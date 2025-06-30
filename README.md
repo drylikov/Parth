@@ -1,5 +1,6 @@
 
 
+
 <h1 align="center">
   <br>
   <a href="https://github.com/drylikov/Parth"><img src="https://i.ibb.co/n1m7fR2/parth.png" alt="Parth"></a>
@@ -7,6 +8,7 @@
   Parth
   <br>
 </h1>
+
 
 
 <h4 align="center">Heuristic Vulnerable Parameter Scanner</h4>
@@ -22,11 +24,13 @@ Some HTTP parameter names are more commonly associated with one functionality th
 **Installation:** `pip3 install parth`
 
 
+
 ### Import targets from a file
 This option works for all 3 supported import types: Burp Suite history, newline delimited text file or a HTTP request text file.
 ```
 parth -i example.history
 ```
+
 
 ### Import targets from stdin
 ```
@@ -37,7 +41,10 @@ An exclusive option `--pipe` is available when importing targets from stdin. It 
 cat urls | parth --pipe xss
 ```
 
+
+
 **Supported Issues:** `lfi, ssrf, sqli, xss, open_redirect, rce`
+
 
 
 ### Find URLs for a domain
@@ -54,11 +61,13 @@ parth -ut example.com
 ```
 
 
+
 ### Save parameter names
 This option will write all the parameter names found in a file with name `params-{target}.txt` for later use.
 ```
 parth -pt example.com
 ```
+
 
 
 ### JSON Output
